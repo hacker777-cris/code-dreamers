@@ -15,7 +15,6 @@ import {
 } from "@/components/ui/card";
 import {
   Plus,
-  Minus,
   Download,
   Eye,
   FilePlus,
