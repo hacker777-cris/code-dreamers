@@ -1,6 +1,7 @@
 "use client";
 
 import React, { useState, useEffect } from "react";
+import { Link } from "react-router-dom";
 import {
   ArrowRight,
   Code,
@@ -170,9 +171,9 @@ const EnhancedLandingPage: React.FC = () => {
                       <ul className="grid w-[400px] gap-3 p-4 md:w-[500px] md:grid-cols-2 lg:w-[600px]">
                         <li className="row-span-3">
                           <NavigationMenuLink asChild>
-                            <a
+                            <Link
                               className="flex h-full w-full select-none flex-col justify-end rounded-md bg-gradient-to-b from-primary/20 to-primary/5 p-6 no-underline outline-none focus:shadow-md"
-                              href="/Invoice-generator"
+                              to="/Invoice-generator"
                             >
                               <div className="mb-2 mt-4 text-lg font-medium">
                                 Invoice Generator
@@ -180,7 +181,7 @@ const EnhancedLandingPage: React.FC = () => {
                               <p className="text-sm leading-tight text-muted-foreground">
                                 Create professional invoices quickly and easily.
                               </p>
-                            </a>
+                            </Link>
                           </NavigationMenuLink>
                         </li>
                         <li>

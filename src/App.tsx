@@ -1,4 +1,4 @@
-import { BrowserRouter as Router, Routes, Route, Link } from "react-router-dom";
+import { HashRouter as Router, Routes, Route, Link } from "react-router-dom";
 import InvoiceGenerator from "./Products/InvoiceGenerator";
 import EnhancedLandingPage from "./components/LandingPage";
 import "./index.css";
